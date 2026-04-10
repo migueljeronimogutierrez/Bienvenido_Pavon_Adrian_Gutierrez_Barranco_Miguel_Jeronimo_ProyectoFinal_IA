@@ -107,7 +107,6 @@ The current version includes:
 - **Windows 11**
 - Local execution
 - CPU inference validated
-- GPU detection available during development, but GPU is **not required** for running the MVP
 
 ---
 
@@ -156,7 +155,7 @@ This repository is intended to store:
 - helper scripts,
 - and lightweight example assets.
 
-It is **not recommended** to store the large trained models directly in the GitHub repository, especially the DeepPBR checkpoint, because one of its files is approximately **1.6 GB**.
+It **was not recommended** to store the large trained models directly in the GitHub repository, especially the DeepPBR checkpoint, because one of its files is approximately **1.6 GB**.
 
 ---
 
@@ -172,11 +171,6 @@ Minimum practical requirements for local execution:
   - the virtual environment,
   - the model files,
   - generated outputs
-
-### Recommended
-
-- CPU execution is valid for academic demonstration
-- NVIDIA GPU is optional, not mandatory for the delivered MVP
 
 ---
 
@@ -222,21 +216,11 @@ models/cyclegan/gen_AB_epoca80_FINAL.weights.h5
 
 Additional CycleGAN files may also be kept in the same folder if needed.
 
-### Delivery recommendation
-
-For academic delivery, the recommended approach is:
-
-- keep the **code in GitHub**,
-- keep the **large model files outside the repository**,
-- provide the professor with a **separate ZIP package** containing the project plus the model files already placed in the correct folders.
-
-This avoids repository bloat and makes the project easier to maintain and version later.
-
 ---
 
 ## 7. Installation
 
-### Option A - easiest approach for the professor
+### Option A
 
 Use the provided batch file:
 
@@ -327,24 +311,7 @@ Known limitations include:
 
 ---
 
-## 11. Repository Scope
-
-This GitHub repository is meant to preserve a **stable, reproducible delivery version** of the project.
-
-Suggested versioning strategy:
-
-- `v1.0-tfm` -> academic delivery version
-- future versions may continue development without altering the delivered milestone
-
-This allows the project to be:
-
-- submitted in a clean state,
-- reproducible for evaluation,
-- and still open to future iterations.
-
----
-
-## 12. Future Work
+## 11. Future Work
 
 Possible next steps include:
 
@@ -427,7 +394,6 @@ La versión actual incluye:
 - **Windows 11**
 - Ejecución local
 - Inferencia en CPU validada
-- Detección de GPU disponible durante el desarrollo, aunque la GPU **no es obligatoria** para ejecutar el MVP entregado
 
 ---
 
@@ -476,7 +442,7 @@ Este repositorio está pensado para almacenar:
 - scripts auxiliares,
 - y ejemplos ligeros.
 
-**No es recomendable** almacenar directamente en GitHub los modelos entrenados más pesados, especialmente el checkpoint de DeepPBR, porque uno de sus archivos ocupa aproximadamente **1,6 GB**.
+**No era recomendable** almacenar directamente en GitHub los modelos entrenados más pesados, especialmente el checkpoint de DeepPBR, porque uno de sus archivos ocupa aproximadamente **1,6 GB**.
 
 ---
 
@@ -492,11 +458,6 @@ Requisitos prácticos mínimos para ejecutar el proyecto en local:
   - el entorno virtual,
   - los archivos de modelos,
   - los resultados generados
-
-### Recomendado
-
-- La ejecución en CPU es válida para la demostración académica
-- La GPU NVIDIA es opcional, no obligatoria para el MVP entregado
 
 ---
 
@@ -542,21 +503,11 @@ models/cyclegan/gen_AB_epoca80_FINAL.weights.h5
 
 Los demás archivos de CycleGAN pueden mantenerse en esa misma carpeta si se desea.
 
-### Recomendación de entrega
-
-Para la entrega académica, la estrategia recomendada es:
-
-- mantener el **código en GitHub**,
-- mantener los **pesos grandes fuera del repositorio**,
-- entregar al profesor un **ZIP adicional** con el proyecto y los modelos ya colocados en las carpetas correctas.
-
-De esta forma se evita inflar el repositorio y se facilita el mantenimiento y el versionado futuro.
-
 ---
 
 ## 7. Instalación
 
-### Opción A - la más sencilla para el profesor
+### Opción A
 
 Usar el archivo `.bat` incluido:
 
@@ -647,24 +598,7 @@ Limitaciones conocidas:
 
 ---
 
-## 11. Alcance del repositorio
-
-Este repositorio de GitHub está pensado para conservar una **versión estable y reproducible** del proyecto de entrega.
-
-Estrategia de versionado sugerida:
-
-- `v1.0-tfm` -> versión de entrega académica
-- versiones futuras -> continuación del desarrollo sin alterar el hito entregado
-
-Esto permite que el proyecto quede:
-
-- limpio para su evaluación,
-- reproducible,
-- y abierto a futuras iteraciones.
-
----
-
-## 12. Trabajo futuro
+## 11. Trabajo futuro
 
 Posibles pasos siguientes:
 
