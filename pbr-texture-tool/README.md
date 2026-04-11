@@ -19,8 +19,7 @@ This project was developed as an academic prototype and is designed to run **loc
   - [8. How to Run the Application](#8-how-to-run-the-application)
   - [9. Recommended Usage Workflow](#9-recommended-usage-workflow)
   - [10. Current Limitations](#10-current-limitations)
-  - [11. Repository Scope](#11-repository-scope)
-  - [12. Future Work](#12-future-work)
+  - [11. Future Work](#11-future-work)
 - [Español](#español)
   - [1. Descripción general del proyecto](#1-descripción-general-del-proyecto)
   - [2. Funcionalidades principales](#2-funcionalidades-principales)
@@ -32,8 +31,7 @@ This project was developed as an academic prototype and is designed to run **loc
   - [8. Cómo ejecutar la aplicación](#8-cómo-ejecutar-la-aplicación)
   - [9. Flujo de uso recomendado](#9-flujo-de-uso-recomendado)
   - [10. Limitaciones actuales](#10-limitaciones-actuales)
-  - [11. Alcance del repositorio](#11-alcance-del-repositorio)
-  - [12. Trabajo futuro](#12-trabajo-futuro)
+  - [11. Trabajo futuro](#11-trabajo-futuro)
 
 ---
 
