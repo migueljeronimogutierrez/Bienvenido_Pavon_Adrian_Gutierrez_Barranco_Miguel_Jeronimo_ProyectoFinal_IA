@@ -1,6 +1,4 @@
-# English
-
-# Quick Start for Local Evaluation
+# English: Quick Start for Local Evaluation
 
 ## Recommended steps
 
@@ -46,9 +44,7 @@ Check the following:
 
 ---
 
-# Español
-
-# Inicio rápido para evaluación local
+# Español: Inicio rápido para evaluación local
 
 ## Pasos recomendados
 
