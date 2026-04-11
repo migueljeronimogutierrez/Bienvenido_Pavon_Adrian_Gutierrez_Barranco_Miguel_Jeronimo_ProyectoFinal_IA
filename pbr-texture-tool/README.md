@@ -130,14 +130,18 @@ pbr-texture-tool/
 │   │   └── (place DeepPBR checkpoint files here)
 │   └── cyclegan/
 │       └── (place CycleGAN weight files here)
-├── outputs/
 ├── sample_inputs/
+|   ├── bricks_640x640.jpg
+|   └── stone_pavement_626x626.png
 ├── scripts/
+│   ├── check_environment.py
+│   ├── validate_cyclegan.py
+│   └── validate_deeppbr.py
 ├── app.py
 ├── requirements.txt
 ├── setup_env.bat
 ├── run_app.bat
-├── quick_start.md
+├── QUICK_START.md
 ├── .gitignore
 └── README.md
 ```
@@ -173,7 +177,7 @@ Minimum practical requirements for local execution:
 
 ## 6. Model Files
 
-This repository expects the model files to be placed manually in the following locations.
+The complete repository with integrated models can be found in the releases section.
 
 ### DeepPBR
 
@@ -413,17 +417,21 @@ pbr-texture-tool/
 │   └── zip_utils.py
 ├── models/
 │   ├── deeppbr/
-│   │   └── (colocar aquí los checkpoints de DeepPBR)
+│   │   └── (place DeepPBR checkpoint files here)
 │   └── cyclegan/
-│       └── (colocar aquí los pesos de CycleGAN)
-├── outputs/
+│       └── (place CycleGAN weight files here)
 ├── sample_inputs/
+|   ├── bricks_640x640.jpg
+|   └── stone_pavement_626x626.png
 ├── scripts/
+│   ├── check_environment.py
+│   ├── validate_cyclegan.py
+│   └── validate_deeppbr.py
 ├── app.py
 ├── requirements.txt
 ├── setup_env.bat
 ├── run_app.bat
-├── quick_start.md
+├── QUICK_START.md
 ├── .gitignore
 └── README.md
 ```
@@ -459,7 +467,7 @@ Requisitos prácticos mínimos para ejecutar el proyecto en local:
 
 ## 6. Archivos de modelos
 
-Este repositorio espera que los archivos de modelos se coloquen manualmente en las siguientes rutas.
+El repositorio completo con los modelos integrados se encuentran en la sección de releases.
 
 ### DeepPBR
 
