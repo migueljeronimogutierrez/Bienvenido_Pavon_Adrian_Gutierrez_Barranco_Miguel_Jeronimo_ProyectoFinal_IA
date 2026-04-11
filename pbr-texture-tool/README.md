@@ -140,7 +140,7 @@ pbr-texture-tool/
 ├── requirements_bootstrap.txt
 ├── setup_env.bat
 ├── run_app.bat
-├── PROFESSOR_QUICK_START.md
+├── quick_start.md
 ├── .gitignore
 └── README.md
 ```
@@ -427,7 +427,7 @@ pbr-texture-tool/
 ├── requirements_bootstrap.txt
 ├── setup_env.bat
 ├── run_app.bat
-├── PROFESSOR_QUICK_START.md
+├── quick_start.md
 ├── .gitignore
 └── README.md
 ```
