@@ -137,7 +137,6 @@ pbr-texture-tool/
 ├── scripts/
 ├── app.py
 ├── requirements.txt
-├── requirements_bootstrap.txt
 ├── setup_env.bat
 ├── run_app.bat
 ├── quick_start.md
@@ -424,7 +423,6 @@ pbr-texture-tool/
 ├── scripts/
 ├── app.py
 ├── requirements.txt
-├── requirements_bootstrap.txt
 ├── setup_env.bat
 ├── run_app.bat
 ├── quick_start.md
